@@ -56,7 +56,7 @@ app.layout = html.Div(children=[
         figure={
             'data': data,
             'layout': {
-                'title': '<b>How Apple’s Stock Reacts to New Product Announcements</b><br> Apple’s stock price after product announcements (indexed to closing price on the day of the announcement)'
+                'title': '<b>中信期货展示</b><br> 测试 (上期所)'
             }
         }
     ),
@@ -66,5 +66,5 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
-    # app.run_server(debug=False, port=8081, host='10.21.68.43')
+    # app.run_server(debug=True)
+    app.run_server(debug=False, port=8081, host='10.21.68.43')
